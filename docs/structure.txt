@@ -4,7 +4,8 @@ stargaze/
 │   ├── README.md
 │   ├── CONTRIBUTING.md
 │   ├── CODE_OF_CONDUCT.md
-│   └── ...
+|   |-- algorithmic_module_integration.md
+|   |-- user_interface_integration.md
 │
 ├── src/                  # Source code
 │   ├── architectures/    # Hybrid neural network architecture implementation
@@ -23,7 +24,10 @@ stargaze/
 │   ├── preprocessing/    # Data preprocessing utilities
 │   ├── utils/            # General utility functions
 │   ├── main.py           # Main script for running the project
-│   └── ...
+|   |-- controller.py
+|   |-- data_broker.py
+|   |-- feedback_handler.py
+|   |-- api_endpoints.py
 │
 ├── data/                 # Data directory
 ├── models/               # Saved models directory
